@@ -1,16 +1,13 @@
 function double(x) {
-  x = x*2;
-  return x;
+  return x * 2;
 }
 
 function numTen(x) {
-  x = x + 10;
-  return x;
+  return x + 10;
 }
 
 function numTriple(x) {
-  x = x*3;
-  return x;
+return x * 3;
 }
 
 window.onload=console.log(double(numTen(numTriple(10))));
